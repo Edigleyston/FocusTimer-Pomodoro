@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/indexStyle.css">
+    
+    <title>FocusTimer - Pomodoro</title>
+    <script src="JS/script.js" defer type="module"></script>
+
+</head>
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">00</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+
+        <div id="controls">
+            <button class="play">
+                <img src="assets/button-play.svg" alt="control play">
+            </button>
+            <button class="pause hide">
+                <img src="assets/control-pause.svg" alt="control pause">
+            </button>
+            <button class="stop hide">
+                <img src="assets/button-stop.svg" alt="">
+            </button>
+            <button class="set">
+                <img src="assets/set.svg" alt="">
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="sound-on">
+            <img src="assets/sound-on.svg" alt="">
+        </div>
+        <div class="sound-off hide">
+            <img src="assets/sound-off.svg" alt="">
+        </div>
+    </footer>
+</body>
+</html>
